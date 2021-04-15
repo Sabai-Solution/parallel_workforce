@@ -35,14 +35,14 @@ Gem::Specification.new do |spec|
   spec.executables = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
 
-  spec.add_development_dependency "bundler", "~> 1.17"
-  spec.add_development_dependency "fakeredis", "~> 0.7"
-  spec.add_development_dependency "pry", "~> 0.12"
-  spec.add_development_dependency "rails", "~> 4.2"
-  spec.add_development_dependency "rake", "~> 10.0"
-  spec.add_development_dependency "rspec", "~> 3.8"
-  spec.add_development_dependency "rubocop", "~> 0.65"
-  spec.add_development_dependency "rubocop-rspec", "~> 1.32"
-  spec.add_development_dependency "sidekiq", "~> 4.0"
+  spec.add_development_dependency "bundler", "~> 2.1.4"
+  spec.add_development_dependency "fakeredis", "~> 0.8"
+  spec.add_development_dependency "pry", "~> 0.14"
+  spec.add_development_dependency "rails", "~> 5.2.4"
+  spec.add_development_dependency "rake", "~> 13.0"
+  spec.add_development_dependency "rspec", "~> 3.10"
+  spec.add_development_dependency "rubocop", "~> 0.76.0"
+  spec.add_development_dependency "rubocop-rspec", "~> 1.36.0"
+  spec.add_development_dependency "sidekiq", "~> 5.0"
 end
 # rubocop:enable Metrics/BlockLength
