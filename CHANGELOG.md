@@ -1,3 +1,7 @@
+## 1.0.2
+* Upgrade dependencies versions
+
+
 ## 1.0.1
 * Allow `allow_partial_result` in configuration and while calling any of `ParallelWorkforce.perform_all`;By default false but can make true if partial result needed
 
